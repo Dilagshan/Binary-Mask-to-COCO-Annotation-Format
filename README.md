@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There are many annotations format for different types of models. Usually, binary masks are used for U-NET and FPN model training. Suppose, if we want to train the MASK R-CNN model for instance segmentation using the same dataset, we need the COCO format annotations. This is the method we developed to convert binary mask to COCO annotation format.
+There are many annotations format for different types of models. Usually, binary masks are used for U-NET and FPN model training. Suppose, if we want to train the MASK R-CNN model for instance segmentation using the same dataset, we need the COCO format annotations. This is the method we developed to convert binary mask to COCO annotation format. Here, your images names should be in the format of "name_id.png" as image id for the COCO format annotation will create from the image name. 
 
 ## Installation process
 
@@ -24,7 +24,7 @@ from binary_to_coco import create_coco
 ```
 <br> Step 5: Define the input for the function create_coco.
 ```
-input_path = "list of binary images' path"
+input_path_list = "list containing the paths of all binary images" 
 output_path = "path where you want to save the COCO annotations as json file"
 create_coco(input_path, output_path)
 ```
