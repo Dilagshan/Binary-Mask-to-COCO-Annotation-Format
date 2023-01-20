@@ -1,10 +1,10 @@
 # Binary-Mask-to-COCO-Annotation-Format
 
-# Introduction
+## Introduction
 
 There are many annotations format for different types of models. Usually, binary masks are used for U-NET and FPN model training. Suppose, if we want to train the MASK R-CNN model for instance segmentation using the same dataset, we need the COCO format annotations. This is the method we developed to convert binary mask to COCO annotation format.
 
-# Installation process
+## Installation process
 
 Step 1: Clone this repository
 ```
@@ -29,5 +29,5 @@ output_path = "path where you want to save the converted json file"
 create_coco(input_path, output_path)
 ```
 
-# Reference
+## Reference
 1. https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch
