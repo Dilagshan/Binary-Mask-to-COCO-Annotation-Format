@@ -8,7 +8,7 @@ There are many annotations format for different types of models. Usually, binary
 
 Step 1: Clone this repository
 ```
-
+!git clone https://github.com/Dilagshan/Binary-Mask-to-COCO-Annotation-Format.git
 ```
 <br> Step 2: Change the path of the directory
 ```
