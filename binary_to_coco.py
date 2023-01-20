@@ -48,8 +48,8 @@ def create_coco(path_list,output_path):
   data = {'info':'', 
           'images':[], 
           'annotations':[], 
-          'categories':[{"id": 0, "name": "soya" }]}
-  data['info'] = {"description": "Automate the drawing of polygons"}
+          'categories':[{"id": 0, "name": "my class" }]}
+  data['info'] = {"description": "Binary to COCO"}
   for i in range(len(path_list)):
     data['images'].append(create_images(path_list[i]))
     if i == 0:
