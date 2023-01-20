@@ -1,0 +1,1 @@
+# Binary-Mask-to-COCO-Annotation-Format
