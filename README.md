@@ -25,7 +25,7 @@ from binary_to_coco import create_coco
 <br> Step 5: Define the input for the function create_coco.
 ```
 input_path = "list of binary images' path"
-output_path = "path where you want to save the converted json file"
+output_path = "path where you want to save the COCO annotations as json file"
 create_coco(input_path, output_path)
 ```
 
